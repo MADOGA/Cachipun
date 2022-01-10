@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Cachipun!</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+<!-- LOGIN -->
+    <div id="loginContainer" class="login-container">
+        <div class="user-container" id="user-container">
+            <img class="all" src="./pics/all.jpeg" alt="Piedra, papel y tijeras">
+            <form action="" class="login" id="login">
+                <input type="text" name="user" id="user" placeholder="Usuario">
+                <input type="text" name="password" id="password" placeholder="Contraseña">
+                <button onclick="validarLogin()" type="submit" class="btn-log" id="btn-log">Ingresar</button>
+            </form>
+            <p>Usuario: User  -  Contraseña: 1234</p>
+        </div>
+    </div>
+    <!-- GAME -->
+    <div class="game-container" id="game-container">
+        <h1>¡Comienza el juego!</h1>
+        <div class="players-container">
+        <div class="player1">
+                <p>Jugador 1</p>
+                <div class="box" id="box-p1">
+                    <img src="./pics/question1.png" alt="" id="playerImg">
+                </div>
+                <p>¿Qué vas a jugar?</p>
+                <div class="pick-container">
+                    <button onclick="playPaper()"><img src="./pics/left-pp.jpeg" alt="Papel"></button>
+                    <button onclick="playScissor()"><img src="./pics/left-sc.jpeg" alt="Tijera"></button>
+                    <button onclick="playStone()"><img src="./pics/left-st.jpeg" alt="Piedra"></button>
+                </div>
+            </div>
+            <div class="vs">
+                <h5>vs</h5>
+            </div>
+            <div class="player2">
+                <p>Jugador 2</p>
+                <div class="box" id="box-p2">
+                    <img src="./pics/question1.png" alt="" id="comImg">
+                </div>
+            </div>
+            <div>
+                <h3>Score</h3>
+                <h4 id="score">0</h4>
+                <h3>Puntuaciones</h3>
+                <h4 id="gamePoints">0</h4>
+            </div>
+        </div>
+        <!-- LOGOUT -->
+        <div class="container-logout">
+            <button id="logout" class="btn-logout" onclick="logout()">Cerrar Sesión</button>
+            <p>Al cerrar sesión se perderan tus puntajes guardados</p>
+        </div>
+    </div>
+
+
+
+
+    <script src="./script.js"></script>
+</body>
+</html>

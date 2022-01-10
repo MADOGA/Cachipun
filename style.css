@@ -1,0 +1,150 @@
+*{
+    margin: 0;
+    padding: 0; 
+}
+html{
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background: linear-gradient(0deg, #9d9d9d 0%, #fff 100%);
+}
+.all { 
+    width: 300px;
+    height: 100px;
+    border: solid 5px black;
+}
+.login-container { 
+    width: 100%;
+    height: 100vh;
+    position: absolute;
+    background: linear-gradient(0deg, #9d9d9d 0%, #fff 100%);
+}
+.display {
+    display: none;
+}
+
+.user-container {
+    width: 100%;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 200px;
+}
+.user-container img {
+    margin-bottom: 50px;
+}
+
+.user-container p {
+    margin-top: 20px;
+}
+.user-container input {
+    margin: 5px;
+}
+.btn-log{
+    width: 80px;
+    height: 30px;
+    margin-top: 10px;
+    background-color: grey;
+    color: honeydew;
+    box-shadow: 2px 2px 2px black;
+}
+
+h1{
+    margin: 50px 80px 80px 80px;
+}
+
+.game-container {
+    width: 100%;
+    height: 100vh;
+    margin-top: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.players-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.player1 {
+    width: 300px;
+    height: auto;
+    margin-bottom: 50px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.box{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+}
+.box img {
+    width: 100px;
+    height: 100px;
+}
+.player1 p{
+    margin-top: 15px;
+    margin-bottom: 5px;
+}
+
+.pick-container img {
+    width: 40px;
+    height: 40px;
+   
+}
+
+h5{
+    font-size: 40px;
+    margin-bottom: 100px;
+}
+.player2 {
+    width: 300px;
+    height: auto;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 120px;
+}
+.player2 p{
+    margin-bottom: 5px;
+} 
+.box-p2{
+    width: 100px;
+    height: 100px;
+    border: solid 1px black;
+}
+h3{
+    font-size: 25px;
+    margin-top: 20px;
+}
+h4{
+    font-size: 20px;
+    margin: 10px 0;
+}
+.container-logout {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+.btn-logout {
+    width: 100px;
+    height: 30px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: grey;
+    color: honeydew;
+    box-shadow: 2px 2px 2px black;
+}
+
+.container-logout p{
+    margin-bottom: 15px;
+    font-size: 12px;
+}
+
